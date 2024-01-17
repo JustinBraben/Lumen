@@ -21,4 +21,9 @@ pub const Registry = struct {
         _ = self; // autofix
         // TODO: free all the things
     }
+
+    pub fn create(self: *Registry, object: anytype) object {
+        _ = self; // autofix
+        return object;
+    }
 };
